@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    list-style: none;
+  }
+
+/*************************************************/
+/*                    HEADER                     */
+/*************************************************/
+
+header nav{
+    display: flex;
+    align-items: center;
+}
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    flex: 1 1 40rem;
+    margin-right: 65px;
+    
+}
+#logo{
+    margin-left: 50px;
+}
+header a, footer a, #achat a, .decouvre a, .decouvre2 a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+/*************************************************/
+/*                    Corps du site              */
+/*************************************************/
+#div1{
+    display: flex;
+    flex-direction: row;
+}
+#nature{
+    width: 679px;
+    height: 400px;
+    margin-left: 1%;
+}
+#qui{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+#titre{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 88px;
+}
+.text{
+    margin-top: 30px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+}
+.decouvre{
+    width: 320px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 100px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #116530;
+    border-radius: 15px;
+}
+.decouvre p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+#div2{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    height: 138px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    background: #116530;
+}
+#div2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 76px;
+    color: #FFFFFF;
+}
+
+#sect1, #sect2{
+    display: flex;
+    flex-direction: row;
+    margin-top: 35px;
+    margin-bottom: 25px;
+    margin-right: 1%;
+}
+#sect1 img{
+    width: 700px;
+    height: 467.03px;
+}
+#sect1 p, #sect2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 51px;
+}
+#grp1{
+    margin-top: 2%;
+    margin-left: 2%;
+    margin-right: 1%;
+}
+.gtitle{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 55px;
+    line-height: 70px;
+    margin-bottom: 25px;
+}
+
+#sect2 img{
+    width: 600px;
+    height: 400.45px;
+}
+#sect3 img{
+    margin-left: 80px;
+}
+#sect3{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 25px;
+}
+#sect3 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 38px;
+    text-align: center;
+}
+
+#grandsect, #grandsect2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 35px;
+}
+#grandsect img, #grandsect2 img{
+    margin-top: 25px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+    width: 400px;
+    height: 350px;
+}
+
+#grandsect p, #grandsect2 p{
+    margin-top: 40px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 25px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+#sect4{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    width: 607px;
+    height: 385px;
+    background: #F5F5F5;
+}
+
+#achat{
+    width: 200px;
+    height: 45px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: #116530;
+    border-radius: 15px;
+    text-align: center;
+}
+
+#achat p{
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+#sect5{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 15px;
+}
+
+#sect5 p{
+    text-align: center;
+}
+
+#sect5 img{
+    width: 200px;
+    height: 200px;
+    border: solid;
+}
+
+.decouvre2{
+    width: 320px;
+    height: 70px;
+    margin-top: 30px;
+    margin-left: 600px;
+    align-items: center;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background: #116530;
+    border-radius: 15px;
+}
+
+
+
+.decouvre2 p{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 35px;
+    line-height: 44px;
+    color: #FFFFFF;
+}
+
+/*************************************************/
+/*                    FOOTER                     */
+/*************************************************/
+
+
+
+
+footer{
+    margin-top: 100px;
+    width: 100%;
+    background: #116530;
+    
+}
+
+
+
+.footer-contenu{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    font-size: 20px;
+    padding: 30px  25px;
+    color: #ffffff;
+
+}
+
+
+/* Les rubriques */
+
+.footer-contacte h3,
+.footer-reseau h3,
+.footer-document h3{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+
+
+/* contact */
+
+.liste-contacte,
+.liste-reseau,
+.liste-document{
+     list-style-type: none;
+    
+}
+
+
+.liste-contacte li {
+    padding: 3px 0;
+}
+
+
+.liste-reseau{
+    
+    display: flex;
+    justify-content: space-evenly;
+    
+    
+}
+
+
+.liste-document li{
+    padding: 3px 0;
+}
+
+
+.insta{
+    
+    width: 45px;
+    height: 45px;
+}
+
+
+.tiktok{
+  
+    width: 50px;
+    height: 50px;
+    margin-top: -3px;
+}
+
+
+.ma{
+    font-size:15px;
+    display: flex;
+    color: #ffffff;
+    padding: 1px;
+    margin-left: 65px;
+    
+}
+
+.ah{
+
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+
+
+
